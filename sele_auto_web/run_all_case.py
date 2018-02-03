@@ -7,12 +7,11 @@ from email.mime.multipart import MIMEMultipart
 import smtplib
 import os
 
-'''
 #### 下面三行代码python2报告出现乱码时候可以加上####
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
-'''
+
 
 # 这个是优化版执行所有用例并发送报告，分四个步骤
 # 第一步加载用例
