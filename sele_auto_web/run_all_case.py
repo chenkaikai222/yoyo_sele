@@ -101,6 +101,6 @@ if __name__ == "__main__":
     smtp_server = "smtp.qq.com"
     port = 465
     receiver = "yoyo@qq.com"
-    send_mail(sender, psw, receiver, smtp_server, report_file, port)  # 4最后一步发送报告
+    # send_mail(sender, psw, receiver, smtp_server, report_file, port)  # 4最后一步发送报告
 
 
